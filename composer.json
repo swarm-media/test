@@ -1,0 +1,11 @@
+{
+    "name": "swarm/test",
+    "description": "Test package",
+    "license": "GPL-3.0-or-later",
+    "require": {
+        "php": "^7.2"
+    },
+    "autoload": {
+        "psr-4": {"Swarm\\Test\\": "src/"}
+    }
+}
